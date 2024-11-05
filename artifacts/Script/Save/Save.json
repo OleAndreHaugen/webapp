@@ -1,0 +1,27 @@
+{
+	"id": "c0250bc1-659b-ef11-88cd-002248a0c107",
+	"createdAt": "2024-11-05T11:04:41.476Z",
+	"createdBy": "support@fr8.no",
+	"globalScripts": [
+		{
+			"id": "BA7523BB-6D9B-EF11-88CD-002248A0C107",
+			"name": "NeptuneWebApp - Utils",
+			"contextname": "Utils"
+		}
+	],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "Save",
+	"ver": "24.11.05.1227",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "7fff80de-489b-ef11-88cd-002248a0c107",
+	"package": "fa258633-469b-ef11-88cd-002248a0c107"
+}

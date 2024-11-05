@@ -1,0 +1,3 @@
+<div id='oHTMLUpload' style='display:none'>
+    <input name='folderUploader' id='folderUploader' multiple="multiple" type='file' webkitdirectory mozdirectory  onchange='uploadFolder(event)' style='display:none;' value='' />
+</div>

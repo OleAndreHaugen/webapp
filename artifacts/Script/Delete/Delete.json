@@ -1,0 +1,21 @@
+{
+	"id": "2300a4a5-779b-ef11-88cd-002248a0c107",
+	"createdAt": "2024-11-05T13:12:46.446Z",
+	"createdBy": "support@fr8.no",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "Delete",
+	"ver": "24.11.05.1318",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "7fff80de-489b-ef11-88cd-002248a0c107",
+	"package": "fa258633-469b-ef11-88cd-002248a0c107"
+}

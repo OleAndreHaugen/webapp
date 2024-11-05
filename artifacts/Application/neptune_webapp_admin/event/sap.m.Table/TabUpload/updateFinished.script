@@ -1,0 +1,10 @@
+butUpload.setEnabled(false);
+
+let binding = this.getBinding("items");
+if (!binding) return;
+
+IconTabUpload.setCount(binding.getLength());
+
+if (binding.getLength() > 0) {
+    butUpload.setEnabled(true);
+}

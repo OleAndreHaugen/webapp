@@ -1,0 +1,19 @@
+const selectedItem = this.getSelectedItem();
+
+if (selectedItem) {
+    const context = selectedItem.getBindingContext();
+    const data = context.getObject();
+
+    const options = {
+        parameters: {
+            id: data.id,
+        },
+    };
+
+    modelTabUpload.setData([]);
+
+    apiDetail(options).then(function (res) {
+        modelAppData.setData(res);
+        NavDetail.to(PageDetail);
+    });
+}

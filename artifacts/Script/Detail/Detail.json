@@ -1,0 +1,21 @@
+{
+	"id": "e5b708b0-499b-ef11-88cd-002248a0c107",
+	"createdAt": "2024-11-05T07:43:47.040Z",
+	"createdBy": "support@fr8.no",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "Detail",
+	"ver": "24.11.05.0822",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "7fff80de-489b-ef11-88cd-002248a0c107",
+	"package": "fa258633-469b-ef11-88cd-002248a0c107"
+}

@@ -1,0 +1,1 @@
+sap.m.URLHelper.redirect(location.origin + "/webapp/" + modelAppData.oData.webapp.name, true);

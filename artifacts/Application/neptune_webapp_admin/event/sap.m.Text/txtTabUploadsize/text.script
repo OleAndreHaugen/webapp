@@ -1,0 +1,9 @@
+if (typeof size === "undefined" || size === null || size === "") {
+    return;
+}
+
+oFileSizeFormat = sap.ui.core.format.FileSizeFormat.getInstance({
+    binaryFilesize: false,
+    decimals: 2,
+});
+return oFileSizeFormat.format(size);
