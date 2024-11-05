@@ -16,18 +16,6 @@ apiSave(options).then(function (data) {
 
     apiDetail(optionsDetail).then(function (res) {
         modelAppData.setData(res);
-
-        const items = TabApps.getItems();
-
-        items.forEach(function (item) {
-            const context = item.getBindingContext();
-            const data = context.getObject();
-
-            if (data.id === res.webapp.id) {
-                TabApps.setSelectedItem(item);
-            }
-        });
+        toolAppsUpdate.firePress();
     });
-
-    toolAppsUpdate.firePress();
 });

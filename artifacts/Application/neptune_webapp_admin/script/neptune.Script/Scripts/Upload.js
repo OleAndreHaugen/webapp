@@ -71,5 +71,4 @@ async function uploadFiles() {
     });
 }
 
-// window.uploadIndex = uploadIndex;
 window.uploadFolder = uploadFolder;

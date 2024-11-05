@@ -1796,11 +1796,25 @@
 		},
 		{
 			"fieldNo": 99998,
-			"data": []
+			"data": [
+				{
+					"fieldNo": "3c060f27-6763-43ec-c4f4-92755c4b9abc",
+					"fieldName": "HTML",
+					"fieldParent": 99998,
+					"fieldType": "neptune.Html",
+					"script": "file://script/neptune.Html/HTML.script",
+					"customComponent": false,
+					"filePath": "html",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.11.05.1320",
+	"ver": "24.11.05.1422",
 	"application": "neptune_webapp_admin",
 	"title": "WebApp Admin",
 	"description": "WebApp Admin",

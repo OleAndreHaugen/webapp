@@ -53,7 +53,7 @@ if (req.body.id) {
         id: runtimeId,
         createdAt: new Date(),
         updatedAt: new Date(),
-        page: "",
+        page: getNewTemplate(req.body.name),
         name: req.body.name,
         ver: globals.Utils.generateArtifactVersion(),
         publicAccess: req.body.publicAccess,
@@ -68,3 +68,7 @@ if (req.body.id) {
 }
 
 complete();
+
+function getNewTemplate(title) {
+    return `<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>${title}</title></head><body><h2>WebApp have no assets uploaded.</h2></body></html>`;
+}
