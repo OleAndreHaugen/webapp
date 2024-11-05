@@ -1560,6 +1560,7 @@
 											"fieldType": "sap.ui.layout.SplitterLayoutData",
 											"script": "",
 											"customComponent": false,
+											"disabled": true,
 											"refObject": "PanelList",
 											"request": [],
 											"response": [],
@@ -1814,7 +1815,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.11.05.1422",
+	"ver": "24.11.05.1433",
 	"application": "neptune_webapp_admin",
 	"title": "WebApp Admin",
 	"description": "WebApp Admin",
